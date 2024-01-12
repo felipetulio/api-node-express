@@ -7,12 +7,9 @@ A API desenvolvida neste repositório não possui conexão com banco de dados. O
 - entender o funcionamento das requisições e respostas;
 - construir rotas usando os status de respostas.
 
----
-
 ## Preparando o ambiente de desenvolvimento
 Antes de qualquer coisa, é importante ressaltar que este processo foi realizado no OpenSuse Leap 15.4 e 15.5. É possível que versões antigas ou mais recentes apresentem alterações no processo.
 
----
 
 ## Passo a passo usado para criar este projeto (e que pode ser usado por você criar a sua API)
 
