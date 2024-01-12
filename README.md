@@ -35,12 +35,12 @@ Para automatizar a tarefa de reinicialização do servidor durante o desenvolvim
 npm install --save-dev nodemon
 ~~~
 
-Logo após, utilizei o arquivo `package.json`, na seção de "scripts", para usar o nodemon. Substitui o script "start" por este:
+Logo após, utilizei o arquivo `package.json`, na seção de "scripts", para usar o nodemon. O script utilizado foi:
 
 ~~~bash
 "scripts": {
-  "dev": "nodemon server.js"
-}
+  "dev": "nodemon server.js",
+},
 ~~~
 
-Por fim, passei a inicializar o servidor com o comando `npm dev` e o Nodemon gerencia o resto. É importante ressaltar que estes passos extras são para a fase de desenvolvimento.
+Por fim, passei a inicializar o servidor com o comando `npm run dev` e o Nodemon gerencia o resto. É importante ressaltar que estes passos extras são para a fase de desenvolvimento.
