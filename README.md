@@ -39,8 +39,8 @@ Logo após, utilizei o arquivo `package.json`, na seção de "scripts", para usa
 
 ~~~bash
 "scripts": {
-  "start": "nodemon server.js"
+  "dev": "nodemon server.js"
 }
 ~~~
 
-Por fim, passei a inicializar o servidor com o comando `npm start` e o Nodemon gerencia o resto. É importante ressaltar que estes passos extras são para a fase de desenvolvimento.
+Por fim, passei a inicializar o servidor com o comando `npm dev` e o Nodemon gerencia o resto. É importante ressaltar que estes passos extras são para a fase de desenvolvimento.
