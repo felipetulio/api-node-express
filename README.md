@@ -16,10 +16,19 @@ Antes de qualquer coisa, é importante ressaltar que este processo foi realizado
 
 ## Passo a passo usado para criar este projeto (e que pode ser usado por você criar a sua API)
 
-1. O projeto foi iniciado dentro de um diretório: `npm init -y`
-2. O framework Express foi utilizado neste sistema. Para instalá-lo, foi usado o comando: `npm install express`
-3. Em seguida, criou-se o arquivo de entrada do sistema. Neste exemplo, o arquivo chama-se *server.js*.
-4. A partir deste ponto, foram definidas as rotas do sistema para funcionamento da lógica do CRUD.
+O projeto foi iniciado dentro de um diretório com o comando:
+
+```bash
+npm init -y
+```
+
+O framework Express foi utilizado neste sistema. Para instalá-lo, foi usado o comando:
+
+```bash
+npm install express
+```
+
+Em seguida, criou-se o arquivo de entrada do sistema. Neste exemplo, o arquivo chama-se *server.js*. A partir deste ponto, foram definidas as rotas do sistema para funcionamento da lógica do CRUD.
 
 ### Passo extra para a fase de desenvolvimento
 
