@@ -27,7 +27,7 @@ npm install express
 
 Em seguida, criou-se o arquivo de entrada do sistema. Neste exemplo, o arquivo chama-se *server.js*. A partir deste ponto, foram definidas as rotas do sistema para funcionamento da lógica do CRUD.
 
-### Passo extra para a fase de desenvolvimento
+### Passos extras para a fase de desenvolvimento
 
 Para automatizar a tarefa de reinicialização do servidor durante o desenvolvimento, foi instalado o Nodemon. Ele monitora as alterações nos arquivos e reinicia automaticamente o servidor sempre que houver uma modificação no código. O comando utilizado foi:
 
